@@ -18,7 +18,8 @@ $mngr install autojump
 
 $mngr install python310
 python3.10 -m ensurepip
-$mngr install curl
-$mngr install neovim
 $mngr install npm
 
+$mngr install neovim
+mkdir ~/.config
+ln -s `pwd`/nvim/nvim $HOME/.config/nvim
